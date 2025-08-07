@@ -179,14 +179,14 @@ git clone https://github.com/ed-radanovis/Institutional_Website_Conti_HT_01-2024
 - [x] &nbsp;&nbsp;&nbsp;Go to [Render](https://render.com)
 - [x] &nbsp;&nbsp;&nbsp;Create a new **Static Site**, connect the Git repository the `https://github.com/repository-created-by-you`.
 - [x] &nbsp;&nbsp;&nbsp;Set the root directory to / (project root).
-- [x] Deploy and access the generated URL (e.g., `https://<your-domain>.onrender.com)` or your custom domain after configuration).
+- [x] &nbsp;&nbsp;&nbsp;Deploy and access the generated URL (e.g., `https://<your-domain>.onrender.com)` or your custom domain after configuration).
 
 ❓ - Optional Deploy on on Netlify (Optional - Free Tier) :
 
 - [ ] &nbsp;&nbsp;&nbsp;Go to [Netlify](https://netlify.com).
 - [ ] &nbsp;&nbsp;&nbsp;Import the repository `https://github.com/repository-created-by-you`.
 - [ ] &nbsp;&nbsp;&nbsp;Set the root directory to / (project root).
-- [ ] Deploy and access the generated URL (e.g., `https://<your-domain>.netlify.app`).
+- [ ] &nbsp;&nbsp;&nbsp;Deploy and access the generated URL (e.g., `https://<your-domain>.netlify.app`).
 
 <br> > <br>
 
@@ -208,3 +208,4 @@ git clone https://github.com/ed-radanovis/Institutional_Website_Conti_HT_01-2024
 <br>
 
 [⬆ Back to top ](#project-of-a-institutional-website---conti-higienizações-têxteis)
+
