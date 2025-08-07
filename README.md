@@ -70,7 +70,7 @@ The project is complete, but there is room for future improvements, which will b
 
 ### Resources used in the project
 
-- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">[![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)&nbsp;[![jQuery](https://img.shields.io/badge/-jQuery-333333?style=flat&logo=jquery&logoColor=0769AD)](https://jquery.com/)&nbsp;[![Swiper.js](https://img.shields.io/badge/-Swiper.js-333333?style=flat&logo=swiper)](https://swiperjs.com/)&nbsp;&nbsp;[![AOS](https://img.shields.io/badge/-AOS-333333?style=flat)](https://michalsnik.github.io/aos/)&nbsp;[![Typed.js](https://img.shields.io/badge/-Typed.js-333333?style=flat)](https://mattboldt.com/typed-js/)&nbsp;[![VanillaTilt.js](https://img.shields.io/badge/-VanillaTilt.js-333333?style=flat)](https://micku7zu.github.io/vanilla-tilt.js/)&nbsp;[![Boxicons](https://img.shields.io/badge/-Boxicons-333333?style=flat)](https://boxicons.com/)&nbsp;[![Ionicons](https://img.shields.io/badge/-Ionicons-333333?style=flat)](https://ionicons.com/)
+- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">[![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)&nbsp;[![jQuery](https://img.shields.io/badge/-jQuery-333333?style=flat&logo=jquery&logoColor=0769AD)](https://jquery.com/)&nbsp;[![Swiper.js](https://img.shields.io/badge/-Swiper.js-333333?style=flat&logo=swiper)](https://swiperjs.com/)&nbsp;[![AOS](https://img.shields.io/badge/-AOS-333333?style=flat)](https://michalsnik.github.io/aos/)&nbsp;[![Typed.js](https://img.shields.io/badge/-Typed.js-333333?style=flat)](https://mattboldt.com/typed-js/)&nbsp;[![VanillaTilt.js](https://img.shields.io/badge/-VanillaTilt.js-333333?style=flat)](https://micku7zu.github.io/vanilla-tilt.js/)&nbsp;[![Boxicons](https://img.shields.io/badge/-Boxicons-333333?style=flat)](https://boxicons.com/)&nbsp;[![Ionicons](https://img.shields.io/badge/-Ionicons-333333?style=flat)](https://ionicons.com/)
       <br>
 
 - [x] **Development Tools and Testing**:&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_liveserver.png" width="21px" alt="Live Server Icon">![Live Server](https://img.shields.io/badge/-Live%20Server-333333?style=flat&logo=live-server)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)&nbsp;&nbsp;[![Browser DevTools](https://img.shields.io/badge/-Browser_DevTools-333333?style=flat&logo=google-chrome)](https://developer.chrome.com/docs/devtools/)
@@ -179,14 +179,14 @@ git clone https://github.com/ed-radanovis/Institutional_Website_Conti_HT_01-2024
 - [x] &nbsp;&nbsp;&nbsp;Go to [Render](https://render.com)
 - [x] &nbsp;&nbsp;&nbsp;Create a new **Static Site**, connect the Git repository the `https://github.com/repository-created-by-you`.
 - [x] &nbsp;&nbsp;&nbsp;Set the root directory to / (project root).
-- [x] Deploy and access the generated URL (e.g., `https://<your-domain>.onrender.com)` or your custom domain after configuration).
+- [x] &nbsp;&nbsp;&nbsp;Deploy and access the generated URL (e.g., `https://<your-domain>.onrender.com)` or your custom domain after configuration).
 
 ❓ - Optional Deploy on on Netlify (Optional - Free Tier) :
 
 - [ ] &nbsp;&nbsp;&nbsp;Go to [Netlify](https://netlify.com).
 - [ ] &nbsp;&nbsp;&nbsp;Import the repository `https://github.com/repository-created-by-you`.
 - [ ] &nbsp;&nbsp;&nbsp;Set the root directory to / (project root).
-- [ ] Deploy and access the generated URL (e.g., `https://<your-domain>.netlify.app`).
+- [ ] &nbsp;&nbsp;&nbsp;Deploy and access the generated URL (e.g., `https://<your-domain>.netlify.app`).
 
 <br> > <br>
 
@@ -208,3 +208,4 @@ git clone https://github.com/ed-radanovis/Institutional_Website_Conti_HT_01-2024
 <br>
 
 [⬆ Back to top ](#project-of-a-institutional-website---conti-higienizações-têxteis)
+Project of a Institutional Website - Conti Higienizações Têxteis
