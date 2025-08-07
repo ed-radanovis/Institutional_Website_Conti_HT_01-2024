@@ -1,0 +1,133 @@
+/* Section Footer */
+.container__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 8vh;
+  border-top: 5px ridge #b9b5b54d;
+  background-color: #111111;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Ubuntu', 'Poppins', sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1330px;
+  padding: 0 20px;
+}
+
+.footer__logo img {
+  border-radius: 50%;
+  width: auto;
+  height: 6vh;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__logo img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px #48f1eb);
+}
+
+.footer__copyright {
+  color: #9b989b;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #9b989b;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact__link i {
+  font-size: 1.2rem;
+  color: #48f1eb;
+}
+
+.contact__link:hover {
+  color: #ffffff;
+}
+
+.contact__link:hover i {
+  color: #08f714fd;
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+  .footer__content {
+    padding: 0 10px;
+  }
+
+  .footer__logo img {
+    height: 3vh;
+  }
+
+  .footer__copyright {
+    font-size: 0.5rem;
+  }
+
+  .contact__link {
+    font-size: 0.5rem;
+  }
+
+  .contact__link i {
+    font-size: 0.5rem
+  }
+}
+
+@media only screen and (min-width: 884px) and (max-width: 1024px) {
+  .footer__content {
+    padding: 0 20px;
+  }
+
+  .footer__logo img {
+    height: 4.5vh;
+  }
+
+  .footer__copyright {
+    font-size: 1.1rem;
+  }
+
+  .contact__link {
+    font-size: 1.1rem;
+  }
+
+  .contact__link i {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .footer__copyright {
+    font-size: 1rem;
+  }
+
+  .contact__link {
+    font-size: 1rem;
+  }
+
+  .contact__link i {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="64x64" href="./src/images/favicon.ico">
+
+  <link rel="stylesheet" href="./src/css/styles_0_global.css" />
+  <link rel="stylesheet" href="./src/css/styles_1_header.css" />
+  <link rel="stylesheet" href="./src/css/styles_2_home.css" />
+  <link rel="stylesheet" href="./src/css/styles_3_about.css" />
+  <link rel="stylesheet" href="./src/css/styles_4_services.css" />
+  <link rel="stylesheet" href="./src/css/styles_5_team.css" />
+  <link rel="stylesheet" href="./src/css/styles_6_testimonial.css" />
+  <link rel="stylesheet" href="./src/css/styles_7_contact.css" />
+  <link rel="stylesheet" href="./src/css/styles_8_footer.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="./src/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+  <script src="./src/js/vanilla-tilt.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <title>Conti Higienizações Têxteis</title>
+</head>
+
+<body>
+  <!-- Custom - Scroll bar -->
+  <div title="barra de progresso da rolagem" class="scrollbar" id="progressBar"></div>
+  <div title="barra de progresso da rolagem" class="scrollbar" id="scrollPath"></div>
+  <!-- Navbar - Home -->
+  <header title="barra de navegação" class="navbar">
+    <nav class="max_width__nav">
+      <div class="logo_container__nav">
+        <img title="logomarca da empresa conti higienizações têxteis" class="logo_img__nav"
+          src="./src/images/_main/Logo.jpg" alt="logo Conti Higienizações Têxteis">
+      </div>
+      <ul title="lista/menu da barra de navegação" class="menu__nav">
+        <li><a title="ícone home da barra de navegação" class="anchor__nav" href="#home">Home</a></li>
+        <li><a title="ícone sobre da barra de navegação" class="anchor__nav" href="#about">Sobre</a></li>
+        <li><a title="ícone serviços da barra de navegação" class="anchor__nav" href="#services">Serviços</a>
+        </li>
+        <li><a title="ícone equipe da barra de navegação" class="anchor__nav" href="#team">Equipe</a></li>
+        <li><a title="ícone equipe da barra de navegação" class="anchor__nav" href="#testimonial">Depoimentos</a></li>
+        <li><a title="ícone contato da barra de navegação" class="anchor__nav" href="#contact">Contato</a></li>
+      </ul>
+      <div title="botão acionamento menu dispositivos móveis" class="btn_menu__nav" alt="botão menu">
+        <ion-icon name="menu"></ion-icon>
+      </div>
+    </nav>
+  </header>
+  <!-- Whatsapp - Link -->
+  <div title="link para o Whatsapp" class="btn_whatsapp__body">
+    <a href="https://web.whatsapp.com/send?phone=5519999021528" target="_blank">
+      <img class="image_whatsapp__body" src="./src/images/_main/icon_whatsapp.png" alt="logo whatsapp">
+    </a>
+  </div>
+  <main>
+    <!-- Section Home -->
+    <section title="página home" class="container__home" id="home">
+      <div class="max_width__home">
+        <div class="content__home">
+          <div class="container_left">
+            <span title="linha superior de boas vindas" class="topline_span__home">Bem-Vindos à </span>
+            <h1 title="informativo animado 'Conti H. T. atendimento empresarial e residêncial'" class="h1__home">
+              <span class="multitext_h1__home"></span>
+            </h1>
+            <p title="parágrafo um informativo dos serviços prestados pela empresa" class="p__home" id="p1__home">
+              Oferecemos
+              serviço completo de limpeza profunda com extrema qualidade na
+              remoção de manchas, detritos e odores em:</p>
+            <p title="parágrafo dois informativo dos serviços prestados pela empresa" class="p__home" id="p2__home">
+              tapetes - carpetes - sofás - estofados - assentos automotivos.</p>
+            <p title="parágrafo três informativo dos serviços prestados pela empresa" class="p__home" id="p3__home">
+              Traga vida nova para seus recintos com a nossa aplicação de produtos
+              fungicidas, bactericidas e antimicrobianos que combatem ácaros, germes e microrganismos
+              nocivos a sua saúde e de sua família.
+            </p>
+            <a title="botão faça um orçamento" class="btn__home" type="button" href="#contact">Faça um
+              orçamento</a>
+          </div>
+          <div class="imgbox_container__home">
+            <img title="imagem animada do mascote da empresa" src="./src/images/_main/mascot_2.png"
+              alt="mascote da empresa">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section About -->
+    <section title="página sobre a empresa" class="container__about" id="about">
+      <h1 title="título da página: 'Um novo conceito na manutenção de têxteis'" class="h1__about" data-aos="flip-up"
+        data-aos-duration="2000" data-aos-easing="ease-in-out"><span class="main_text__about"> Um
+          novo conceito na manutenção de têxteis
+        </span></h1>
+      <p title="parágrafo um informativo sobre histórico da empresa" class="p__about" id="p1__about"
+        data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-out">Presente
+        em toda a região do Circuito das Águas Paulista, desde 2022 a Conti Higienizações Têxteis foi criada
+        para atender a demanda dos gestores e proprietários interessados em reduzir as despesas operacionais
+        em seus empreendimentos e residências protegendo seus ativos e a saúde das pessoas.
+      </p>
+      <p title="parágrafo um informativo sobre histórico da empresa" class="p__about" id="p2__about"
+        data-aos="zoom-in-left" data-aos-duration="2000" data-aos-easing="ease-in-out">Fundamentada
+        em otimizar tempo e recursos das empresas, com práticas sustentáveis colocamos nossos
+        técnicos a disposição para aprimorar e garantir não só a aparência, mas, principalmente, a qualidade
+        do ar interno dos ambientes sob nossos cuidados.
+      </p>
+      <div class="container_card__about">
+        <div title="cartão de apresentação dos serviços à empresas" class="card__about" id="card_one__about">
+          <div class="content_card__about">
+            <h2 class="h2_card__about">Empresas:</h2>
+            <h3 class="h3_card__about">Renove sua empresa conosco.</h3>
+            <p class="p_card__about">Obtenha um ambiente higienizado e brilhante com os serviços de limpeza
+              profissional da Conti Higienizações Têxteis.
+              Usamos apenas as tecnologias de limpeza mais recentes e avançadas para remover sujeira,
+              bactérias e outros contaminantes.
+            </p>
+            <a title="botão para encaminhar as aplicações em empresas" href="#company" class="anchor_card__about">Ver
+              Aplicações</a>
+          </div>
+        </div>
+        <div title="cartão de apresentação dos serviços à hotéis" class="card__about" id="card_two__about">
+          <div class="content_card__about">
+            <h2 class="h2_card__about">Hotéis:</h2>
+            <h3 class="h3_card__about">Revitalize seu empreendimento.</h3>
+            <p class="p_card__about">Limpeza de tapetes, carpetes e estofados em geral com extrema
+              qualidade,
+              para todos os recintos, como quartos, corredores, restaurantes, halls e salões de eventos.
+              Traga vida nova as tapeçarias com nossa equipe de especialistas em remoção profunda de
+              manchas,
+              detritos e odores.
+            </p>
+            <a title="botão para encaminhar as aplicações em hotéis" href="#hotel" class="anchor_card__about">Ver
+              Aplicações</a>
+          </div>
+        </div>
+        <div title="cartão de apresentação dos serviços à residências" class="card__about" id="card_three__about">
+          <div class="content_card__about">
+            <h2 class="h2_card__about">Residências:</h2>
+            <h3 class="h3_card__about">Aumente a vida útil de seus móveis.</h3>
+            <p class="p_card__about">Nossos procedimentos para higienização de sofás e estofados são feitos
+              com os agentes adequados para cada tipo de material.
+              Importante para os móveis não sofrerem desgastes desnecessários. Aplicamos produtos
+              fungicidas,
+              de combate a ácaros, bactericidas e antimicrobianos.
+            </p>
+            <a title="botão para encaminhar as aplicações em residencias" href="#residential"
+              class="anchor_card__about">Ver Aplicações</a>
+          </div>
+        </div>
+        <div title="cartão de apresentação dos serviços à automóveis" class="card__about" id="card_four__about">
+          <div class="content_card__about">
+            <h2 class="h2_card__about">Automotivos:</h2>
+            <h3 class="h3_card__about">Proteja sua família contra doenças respiratórias, entre outras.</h3>
+            <p class="p_card__about">Os bancos dos carros podem conter mais de 10 mil fungos e bactérias ,
+              e a limpeza tradicional não os elimina totalmente.
+              Oferecemos serviço completo que além de revitalizar seu veículo remove os patógenos
+              existentes.
+            </p>
+            <a title="botão para encaminhar as aplicações em automotivos" href="#automotive"
+              class="anchor_card__about">Ver Aplicações</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Services -->
+    <section title="página sobre os serviços que são prestados e suas aplicações " class="container__services"
+      id="services">
+      <div class="container_h1__services">
+        <h1 title="título da página: 'conheça nossos serviços'" class="h1__services" data-aos="flip-right"
+          data-aos-duration="2000"><span class="main_text__services"> Conheça nossos serviços
+          </span>
+        </h1>
+        <p title="parágrafo um informativo dos tipos de aplicações" class="p__services" id="p1__services"
+          data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Obtenha um ambiente higienizado e brilhante com
+          nossos serviços de limpeza profissional.
+          Usamos apenas as tecnologias de limpeza mais recentes e avançadas para remover sujeira, bactérias e
+          outros contaminantes.
+        </p>
+        <p title="parágrafo dois informativo dos tipos de aplicações" class="p__services" id="p2__services"
+          data-aos="zoom-in-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Nossos procedimentos são feitos com os agentes adequados para cada tipo de material. Importante para
+          que
+          os bens não sofram desgastes desnecessários, e tenham sua vida útil prolongada.
+          Aplicamos produtos fungicidas, de combate a ácaros, bactericidas e antimicrobianos.
+        </p>
+        <p title="parágrafo três informativo dos tipos de aplicações" class="p__services" id="p3__services"
+          data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Limpeza de tapetes e carpetes com extrema qualidade para quaisquer recintos. Traga vida nova as
+          tapeçarias com nossa equipe de especialistas em limpeza profunda e remoção de manchas, detritos e
+          odores.
+        </p>
+        <p title="parágrafo quatro informativo dos tipos de aplicações" class="p__services" id="p4__services"
+          data-aos="zoom-in-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Talvez algumas pessoas não saibam, mais os bancos dos carros podem conter mais de 10 mil fungos e
+          bactérias,
+          e a limpeza tradicional não os elimina totalmente.
+          Nós da Conti Higienizações Têxteis, oferecemos um serviço completo para você.
+        </p>
+        <p title="parágrafo cinco informativo dos tipos de aplicações" class="p__services" id="p5__services"
+          data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Depois do processo, além de os revitalizar, todos os patógenos são removidos e sua família estará
+          protegida de doenças
+          respiratórias, entre outras.
+          Prestamos serviço de impermeabilização que evita penetração de sujeiras e água.
+        </p>
+        <p title="elemento em destaque: 'entre em contato e faça um orçamento" class="p__services" id="p6__services"
+          data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          Entre em contato e faça um orçamento sem compromisso!
+        </p>
+      </div>
+      <div class="container_h2__services" id="company_container">
+        <h2 title="título 'empresas' da subpágina com carroséis de imagens" class="h2__services" id="company"><a
+            class="anchor1_section__services">Empresas
+          </a></h2>
+      </div>
+      <div title="carrosel de imagens com as aplicações em empresas" class="container_slider__services">
+        <div class="swiper-wrapper">
+          <div title="cartão 1 do carrosel 1 com imagem de uma loja" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_1" alt="imagem de uma loja"><span
+                title="título do cartão 'lojas'" class="span_slider__services">Lojas</span>
+            </figure>
+          </div>
+          <div title="cartão 2 do carrosel 1 com imagem de um restaurante" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_2" alt="imagem de um restaurante"><span
+                title="título do cartão 'bares & restaurantes'" class="span_slider__services">Bares &
+                Restaurantes</span>
+            </figure>
+          </div>
+          <div title="cartão 3 do carrosel 1 com imagem de um consultório" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_3" alt="imagem de um consultório"><span
+                title="título do cartão 'consultórios'" class="span_slider__services">Consultórios</span>
+            </figure>
+          </div>
+          <div title="cartão 4 do carrosel 1 com imagem de um escritório" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_4" alt="imagem de um escritório"><span
+                title="título do cartão 'escritórios'" class="span_slider__services">Escritórios</span>
+            </figure>
+          </div>
+          <div title="cartão 5 do carrosel 1 com imagem de uma sala de reuniões" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_5" alt="imagem de uma sala de reuniões">
+              <span title="título do cartão 'salas de reuniões'" class="span_slider__services">Salas de
+                Reuniões</span>
+            </figure>
+          </div>
+          <div title="cartão 6 do carrosel 1 com imagem de um ateliê de costura" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_6" alt="imagem de um ateliê de costura">
+              <span title="título do cartão 'ateliês de costura'" class="span_slider__services">Ateliês de
+                Costura</span>
+            </figure>
+          </div>
+          <div title="cartão 7 do carrosel 1 com imagem de uma academia" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_7" alt="imagem de uma academia"><span
+                title="título do cartão 'academias'" class="span_slider__services">Academias</span>
+            </figure>
+          </div>
+          <div title="cartão 8 do carrosel 1 com imagem de um call center" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_company_8" alt="imagem de um call center"><span
+                title="título do cartão 'call centers'" class="span_slider__services">Call
+                Centers</span>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_h2__services">
+        <h2 title="título 'hotéis' da subpágina com carroséis de imagens" class="h2__services" id="hotel"><a
+            class="anchor2_section__services">Hotéis
+          </a></h2>
+      </div>
+      <div title="carrosel de imagens com as aplicações em hotéis" class="container_slider__services">
+        <div class="swiper-wrapper">
+          <div title="cartão 1 do carrosel 2 com imagem de um restaurante de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_1" alt="imagem de um restaurante de hotel">
+              <span title="título do cartão 'restaurantes'" class="span_slider__services">Restaurantes</span>
+            </figure>
+          </div>
+          <div title="cartão 2 do carrosel 2 com imagem de um quarto de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_2" alt="imagem de um quarto de hotel"><span
+                title="título do cartão 'quartos'" class="span_slider__services">Quartos</span>
+            </figure>
+          </div>
+          <div title="cartão 3 do carrosel 2 com imagem de um corredor de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_3" alt="imagem de um corredor de hotel"><span
+                title="título do cartão 'corredores'" class="span_slider__services">Corredores</span>
+            </figure>
+          </div>
+          <div title="cartão 4 do carrosel 2 com imagem de um salão de eventos" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_4" alt="imagem de um salão de eventos"><span
+                title="título do cartão 'salões de eventos'" class="span_slider__services">Salões de
+                Eventos</span>
+            </figure>
+          </div>
+          <div title="cartão 5 do carrosel 2 com imagem de um auditório de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_5" alt="imagem de um auditório de hotel"><span
+                title="título do cartão 'auditórios'" class="span_slider__services">Auditórios</span>
+            </figure>
+          </div>
+          <div title="cartão 6 do carrosel 2 com imagem de um lounge de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_6" alt="imagem de um lounge de hotel"><span
+                title="título do cartão 'lounges'" class="span_slider__services">Lounges</span>
+            </figure>
+          </div>
+          <div title="cartão 7 do carrosel 2 com imagem de uma brinquedoteca de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_7" alt="imagem de uma brinquedoteca de hotel">
+              <span title="título do cartão 'brinquedotecas'" class="span_slider__services">Brinquedotecas</span>
+            </figure>
+          </div>
+          <div title="cartão 8 do carrosel 2 com imagem de um cinema de hotel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_hotel_8" alt="imagem de um cinema de hotel"><span
+                title="título do cartão 'cinemas'" class="span_slider__services">Cinemas</span>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_h2__services">
+        <h2 title="título 'residencias' da subpágina com carroséis de imagens" class="h2__services" id="residential"><a
+            class="anchor1_section__services">Residências
+          </a></h2>
+      </div>
+      <div title="carrosel de imagens com as aplicações em residências" class="container_slider__services">
+        <div class="swiper-wrapper">
+          <div title="cartão 1 do carrosel 3 com imagem de um quarto com cama" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_1" alt="imagem de um quarto com cama">
+              <span title="título do cartão 'colchões e travesseiros'" class="span_slider__services">Colchões e
+                Travesseiros</span>
+            </figure>
+          </div>
+          <div title="cartão 2 do carrosel 3 com imagem de uma Cortina" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_2" alt="imagem de uma Cortina"><span
+                title="título do cartão 'cortinas'" class="span_slider__services">Cortinas</span>
+            </figure>
+          </div>
+          <div title="cartão 3 do carrosel 3 com imagem de uma sala de estar" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_3" alt="imagem de uma sala de estar">
+              <span title="título do cartão 'salas de estar'" class="span_slider__services">Salas de
+                Estar</span>
+            </figure>
+          </div>
+          <div title="cartão 4 do carrosel 3 com imagem de um home office" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_4" alt="imagem de um home office"><span
+                title="título do cartão 'home offices'" class="span_slider__services">Home
+                Offices</span>
+            </figure>
+          </div>
+          <div title="cartão 5 do carrosel 3 com imagem de uma sala de jantar" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_5" alt="imagem de uma sala de jantar">
+              <span title="título do cartão 'salas de jantar'" class="span_slider__services">Salas de
+                Jantar</span>
+            </figure>
+          </div>
+          <div title="cartão 6 do carrosel 3 com imagem de um salão de jogos" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_6" alt="imagem de um salão de jogos">
+              <span title="título do cartão 'salões de jogos'" class="span_slider__services">Salões de
+                Jogos</span>
+            </figure>
+          </div>
+          <div title="cartão 7 do carrosel 3 com imagem de uma área gourmet" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_7" alt="imagem de uma área gourmet">
+              <span title="título do cartão 'áreas gourmet'" class="span_slider__services">Áreas
+                Gourmet</span>
+            </figure>
+          </div>
+          <div title="cartão 8 do carrosel 3 com imagem de uma tapeçaria" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_residential_8" alt="imagem de uma tapeçaria"><span
+                title="título do cartão 'tapeçarias'" class="span_slider__services">Tapeçarias</span>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_h2__services">
+        <h2 title="título 'automotivos' da subpágina com carroséis de imagens" class="h2__services" id="automotive"><a
+            class="anchor2_section__services">Automotivos
+          </a></h2>
+      </div>
+      <div title="carrosel de imagens com as aplicações em automotivos" class="container_slider__services">
+        <div class="swiper-wrapper">
+          <div title="cartão 1 do carrosel 4 com imagem de assentos couro escovado dianteiros de automóvel"
+            class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_1"
+              alt="imagem de assentos couro escovado dianteiros de automóvel"><span
+                title="título do cartão 'todos os materiais'" class="span_slider__services">Todos os
+                Materiais</span>
+            </figure>
+          </div>
+          <div title="cartão 2 do carrosel 4 com imagem de um bebê conforto" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_2" alt="imagem de um bebê conforto"><span
+                title="título do cartão 'bebês conforto'" class="span_slider__services">Bebês
+                Conforto</span>
+            </figure>
+          </div>
+          <div title="cartão 3 do carrosel 4 com imagem de um forro de teto de automóvel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_3" alt="imagem de um forro de teto de automóvel">
+              <span title="título do cartão 'revestimentos de tetos'" class="span_slider__services">Revestimentos de
+                Tetos</span>
+            </figure>
+          </div>
+          <div title="cartão 4 do carrosel 4 com imagem de um porta malas" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_4" alt="imagem de um porta malas"><span
+                title="título do cartão 'porta malas'" class="span_slider__services">Porta Malas</span>
+            </figure>
+          </div>
+          <div title="cartão 5 do carrosel 4 com imagem do painel de uma s.u.v." class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_5" alt="imagem do painel de uma s.u.v.">
+              <span title="título do cartão 's.u.v.'s & caminhonetes'" class="span_slider__services">S.U.V.'s &
+                Caminhonetes</span>
+            </figure>
+          </div>
+          <div title="cartão 6 do carrosel 4 com imagem de um console de automóvel" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_6" alt="imagem de um console de automóvel"><span
+                title="título do cartão 'consoles'" class="span_slider__services">Consoles</span>
+            </figure>
+          </div>
+          <div title="cartão 7 do carrosel 4 com imagem de uma cabines de caminhão" class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_7" alt="imagem de uma cabines de caminhão"><span
+                title="título do cartão 'cabines de caminhões'" class="span_slider__services">Cabines de
+                Caminhões</span>
+            </figure>
+          </div>
+          <div title="cartão 8 do carrosel 4 com imagem de assentos brancos dianteiros de automóvel"
+            class="swiper-slide">
+            <figure class="swiper-image" id="img_slider_automotive_8"
+              alt="imagem de assentos brancos dianteiros de automóvel"><span title="título do cartão 'quaisquer cores'"
+                class="span_slider__services">Quaisquer
+                Cores</span>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Section Team -->
+    <section title="página sobre a equipe" class="container__team" id="team">
+      <div class="container_h1__team">
+        <div title="imagem do mascote da empresa" class="container_imgbox__team">
+        </div>
+        <h1 class="h1__team">
+          <video class="video_smoke__team" title="video de um rastro esfumaçado" src="./src/videos/smoke.mp4" autoplay
+            loop muted alt="video de rastro esfumaçado"></video>
+          <div title="título da página: 'equipe técnica'" class="container_span__team">
+            <span class="text_span__team">E</span>
+            <span class="text_span__team">q</span>
+            <span class="text_span__team">u</span>
+            <span class="text_span__team">i</span>
+            <span class="text_span__team">p</span>
+            <span class="text_span__team">e</span>
+            <span class="text_span__team"> </span>
+            <span class="text_span__team">T</span>
+            <span class="text_span__team">é</span>
+            <span class="text_span__team">c</span>
+            <span class="text_span__team">n</span>
+            <span class="text_span__team">i</span>
+            <span class="text_span__team">c</span>
+            <span class="text_span__team">a</span>
+          </div>
+        </h1>
+      </div>
+      <div class="content_p__team" data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-out">
+        <p title="parágrafo um informativo sobre a equipe" class="p_main__team" id="p1__team">Prezamos pela
+          extrema qualidade, conosco sua empresa e residência poderão contar com o que há de melhor no
+          mercado!</p>
+        <div title="lista não ordenada com ícones animados" class="subcontainer_content_p__team">
+          <div class="subcontainer_p__team">
+            <div class="list_styling" id="list_styling_1"></div>
+            <p title="parágrafo um da lista 'produtos com tecnologia de ponta'" class="p__team" id="p2__team">Produtos
+              com tecnologia de ponta.</p>
+          </div>
+          <div class="subcontainer_p__team">
+            <div class="list_styling" id="list_styling_2"></div>
+            <p title="parágrafo dois da lista 'equipe técnica altamente terinada'" class="p__team" id="p3__team">Equipe
+              técnica altamente treinada.</p>
+          </div>
+          <div class="subcontainer_p__team">
+            <div class="list_styling" id="list_styling_3"></div>
+            <p title="parágrafo três da lista 'equipamentos de alto desempenho'" class="p__team" id="p4__team">
+              Equipamentos de alto desempenho.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container_stamps__team">
+        <div class="content_stamps__team" data-aos="zoom-in-right" data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+          <img title="imagem selo de certificação ISO 9001" src="./src/images/team_stamps/iso9001.png"
+            class="stamps__team" alt="...">
+        </div>
+        <div class="content_stamps__team" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img title="imagem selo de certificação de treinamentoda equipe" src="./src/images/team_stamps/training.png"
+            class="stamps__team" alt="...">
+        </div>
+        <div class="content_stamps__team" data-aos="zoom-in-left" data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+          <img title="imagem selo de certificação premium quality product" src="./src/images/team_stamps/quality.png"
+            class="stamps__team" alt="...">
+        </div>
+      </div>
+      <div class="container_card__team">
+        <div title="cartão com texto sobre os equipamentos" class="card__team" id="card_one__team" data-aos="fade-right"
+          data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img class="img_card__team" src="./src/images/team_cards/extractors_1.png" alt="">
+          <div class="content_card__team">
+            <h2 class="h2_card__team">Equipamentos de Última Geração ...</h2>
+            <p class="p_card__team">Quando se trata da qualidade de nossos equipamentos, a excelência é
+              nosso padrão.
+              Investimos em equipamentos de última geração que garantem a limpeza mais profunda de seus
+              bens.
+              Nosso maquinário de última geração foi projetado para fornecer uma limpeza profunda e
+              completa.
+              Investimos na mais recente tecnologia para fornecer soluções de limpeza eficientes e
+              ecológicas,
+              proporcionando à sua casa ou escritório um ambiente fresco e convidativo.</p>
+          </div>
+        </div>
+        <div title="cartão com texto sobre especialização da equipe" class="card__team" id="card_two__team"
+          data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img class="img_card__team" src="./src/images/team_cards/operator_0.jpg" alt="">
+          <div class="content_card__team">
+            <h2 class="h2_card__team">Equipe Altamente Especializada ...</h2>
+            <p class="p_card__team">Somos orgulhosos da excepcional qualidade do treinamento de nossa
+              equipe, toda ela dedicada
+              e que passa por rigorosos programas de treinamento, garantindo que estejam bem equipados com
+              as mais recentes técnicas
+              e conhecimentos do setor. Este compromisso com a aprendizagem contínua nos garante prestar
+              um serviço de alto nível,
+              fornecendo soluções de limpeza eficazes e completas aos nossos valiosos clientes.
+              Excelência em treinamento é nosso diferencial!
+            </p>
+          </div>
+        </div>
+        <div title="cartão com texto sobre qualidade dos produtos utilizados" class="card__team" id="card_three__team"
+          data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img class="img_card__team" src="./src/images/team_cards/vsc_vonixx.webp" alt="">
+          <div class="content_card__team">
+            <h2 class="h2_card__team">Produtos Mundialmente Reconhecidos ...</h2>
+            <p class="p_card__team">Com a finalidade de proporcionar uma limpeza completa, o Vonixx Smart
+              Cleanerxx é um sistema de limpeza de
+              estofado com ação bactericida e ação residual. Assim sendo, ele utiliza três produtos o
+              Extractus, Bactran e o Sanitizante Finalizador
+              4 em 1, desse modo possível aplicar uma limpeza completa em qualquer superfície de estofado.
+              Além disso, oferece uma ação residual de
+              até 90 dias contra proliferação contra fungos, ácaros, vírus e bactérias.</p>
+          </div>
+        </div>
+        <div title="cartão com texto sobre cuidados na linha automotiva" class="card__team" id="card_four__team"
+          data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img class="img_card__team" src="./src/images/team_cards/operator_3.jpg" alt="">
+          <div class="content_card__team">
+            <h2 class="h2_card__team">Esmero Total na Linha Automotiva ... </h2>
+            <p class="p_card__team">Na questão da limpeza de estofados automotivos somos
+              especializados no cuidado meticuloso do interior do seu veículo. Com experiência no manuseio
+              de diversos materiais, do couro ao tecido. A nossa equipa dedica-se a preservar a estética e
+              o conforto do interior do seu automóvel, garantindo uma experiência de condução imaculada e
+              convidativa.
+              Confie em nossos especialistas para revitalizar o estofamento do seu automóvel, deixando-o
+              com
+              aparência e sensação de novo.</p>
+          </div>
+        </div>
+        <div title="cartão com texto sobre preservação das superfícies" class="card__team" id="card_five__team"
+          data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <img class="img_card__team" src="./src/images/team_cards/screwdriver_with_brushes.png" alt="">
+          <div class="content_card__team">
+            <h2 class="h2_card__team">Preservação da Qualidade das Superfícies ...</h2>
+            <p class="p_card__team">Trabalhamos apenas com escovas fabricadas com precisão que possuem
+              cerdas
+              duráveis projetadas para remover sujeira e fuligem sem causar danos a tecidos delicados. O
+              design
+              ergonômico garante um uso confortável, tornando o processo de limpeza eficiente e
+              descomplicado. Com nossas escovas de alta qualidade, você pode confiar que seu estofamento
+              receberá uma limpeza completa e suave, que priorizam a eficácia e a longevidade do seu
+              estofamento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Testimonial -->
+    <section title="página de depoimentos" class="container__testimonial" id="testimonial">
+      <div class="container_h1__testimonial">
+        <h1 title="título da página: 'A cada novo atendimento, mais um cliente Satisfeito'" class="h1__testimonial"
+          data-aos="zoom-in-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <span class="main_text__testimonial"> A cada novo atendimento, mais um cliente Satisfeito !!!
+          </span>
+        </h1>
+      </div>
+      <div title="carrosel de depoimentos de clientes" class="container_slider__testimonial" data-aos="zoom-in-up"
+        data-aos-duration="1500" data-aos-easing="ease-in-out">
+        <div class="testimonial">
+          <div class="content__testimonial swiper-wrapper">
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente primeiro depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 1.jpg" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo primeiro depoimento" class="p__testimonial" id="p1__testimonial"> "
+                Nossa
+                empresa está satisfeita com o atendimento excepcional prestado pela equipe da CONTI H.T.
+              </p>
+              <p title="parágrafo primeiro depoimento" class="p__testimonial" id="p1__testimonial"> Sua
+                atenção aos detalhes e profissionalismo superaram nossas
+                expectativas . Nosso espaço de escritório parece rejuvenescido e impecável - altamente
+                recomendado ! "</p>
+              <p title="parágrafo primeiro depoimento" class="p__testimonial" id="p1__testimonial">- Águas
+                de Lindóia - SP -
+              </p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do primeiro depoimento" class="name_details__testimonial">Luis
+                  Henrique Moreira</span>
+                <span title="ocupação do primeiro depoimento" class="job_details__testimonial">CEO Conti
+                  Investimentos</span>
+              </div>
+            </div>
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente segundo depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 2.jfif" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo segundo depoimento" class="p__testimonial" id="p2__testimonial">"
+                Estamos
+                imensamente satisfeitos com os resultados do serviço da CONTI Higienizações Têxteis !
+              </p>
+              <p title="parágrafo segundo depoimento" class="p__testimonial" id="p2__testimonial">Nossos
+                hóspedes notaram o visual fresco e imaculado, elevando sua experiência em nosso
+                hotel . Obrigado por manter nossos padrões com tanta experiência ! "
+              </p>
+              <p title="parágrafo primeiro depoimento" class="p__testimonial" id="p2__testimonial">- Águas
+                de Lindóia - SP -
+              </p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do segundo depoimento" class="name_details__testimonial">Jesus Alves
+                  de Souza</span>
+                <span title="ocupação do segundo depoimento" class="job_details__testimonial">Gerente
+                  Geral</span>
+              </div>
+            </div>
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente terceiro depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 3.webp" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo terceiro depoimento" class="p__testimonial" id="p3__testimonial">" O
+                serviço de limpeza automotiva superou minhas expectativas ! O interior do
+                meu carro parece e cheira como novo novamente . </p>
+              <p title="parágrafo terceiro depoimento" class="p__testimonial" id="p3__testimonial">O
+                A atenção aos detalhes demonstrado pela equipe foram realmente impressionantes .
+                Recomendo para qualquer proprietário de carro que procura uma limpeza de alto nível !
+                "
+              </p>
+              <p title="parágrafo terceiro depoimento" class="p__testimonial" id="p3__testimonial">
+                - Socorro - SP -
+              </p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do terceiro depoimento" class="name_details__testimonial">David
+                  Richard da Silva</span>
+                <span title="ocupação do terceiro depoimento" class="job_details__testimonial">Web
+                  Designer</span>
+              </div>
+            </div>
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente quarto depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 4.jpg" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo quarto depoimento" class="p__testimonial" id="p4__testimonial">" Eles
+                transformaram o nosso espaço de escritório, proporcionando excelentes resultados com a
+                sua limpeza minuciosa .</p>
+              <p title="parágrafo quarto depoimento" class="p__testimonial" id="p4__testimonial">Seu
+                profissionalismo e atenção aos detalhes realmente os
+                diferenciam . "</p>
+              <p title="parágrafo terceiro depoimento" class="p__testimonial" id="p4__testimonial">
+                - Monte Sião - MG -
+              </p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do quarto depoimento" class="name_details__testimonial">Jéssica
+                  Fiorotti</span>
+                <span title="ocupação do quarto depoimento" class="job_details__testimonial">Empresária</span>
+              </div>
+            </div>
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente quinto depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 5.webp" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo quinto depoimento" class="p__testimonial" id="p5__testimonial">" Esta
+                empresa fez maravilhas no meu apartamento ! Os
+                estofados, as cortinas e os carpetes parecem novos . </p>
+              <p title="parágrafo quinto depoimento" class="p__testimonial" id="p5__testimonial">O
+                profissionalismo da equipe tornaram toda a experiência
+                descomplicada e gratificante . "
+              </p>
+              <p title="parágrafo quinto depoimento" class="p__testimonial" id="p5__testimonial">- Serra
+                Negra - SP -</p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do quinto depoimento" class="name_details__testimonial">João Paulo
+                  Rodriguez</span>
+                <span title="ocupação do quinto depoimento" class="job_details__testimonial">Representante
+                  Comercial</span>
+              </div>
+            </div>
+            <div class="container_slider__testimonial swiper-slide">
+              <img title="foto de cliente sexto depoimento"
+                src="./src/images/testimonial_carousel/icon testimonials 6.webp" alt="foto de cliente"
+                class="img_slider__testimonial">
+              <p title="parágrafo sexto depoimento" class="p__testimonial" id="p6__testimonial">" Como uma
+                dona de casa ocupada, o serviço da CONTI H.T. em nossas cortinas e carpetes foi um
+                divisor de águas em casa !</p>
+              <p title="parágrafo sexto depoimento" class="p__testimonial" id="p6__testimonial">Sua
+                atenção aos detalhes é incomparável e o frescor que
+                trouxeram é além da satisfação. Imprescindível para quem busca uma limpeza completa e
+                profissional ! "
+              </p>
+              <p title="parágrafo sexto depoimento" class="p__testimonial" id="p6__testimonial">- Águas
+                de Lindóia - SP -</p>
+              <i title="caractere de aspas duplas" class='bx bxs-quote-alt-left quote-icon'></i>
+              <div class="details__testimonial">
+                <span title="nome do sexto depoimento" class="name_details__testimonial">Maria Aparecida
+                  Gonçalves</span>
+                <span title="ocupação do sexto depoimento" class="job_details__testimonial">Professora</span>
+              </div>
+            </div>
+
+          </div>
+          <div title="botão acionamento 'próximo' em depoimento" class="swiper-button-next nav-btn"></div>
+          <div title="botão acionamento 'anterior' em depoimento" class="swiper-button-prev nav-btn"></div>
+          <div title="marcadores de paginação em depoimento" class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Contact -->
+    <section title="página de contato" class="container__contact" id="contact">
+      <div class="content__contact">
+        <div class="container_info__contact">
+          <h2 title="título da página de informações: 'Informações de Contato'" class="h2_info__contact">
+            Informações de Contato</h2>
+          <h3
+            title="sub-título da página informações: 'Preencha o formulário e nossa equipe entrará em contato com você em até 24 horas !'"
+            class="h3_info__contact">Preencha o formulário e nossa equipe entrará em contato com você em
+            até 24 horas !</h3>
+          <ul class="details_info__contact">
+            <li>
+              <i title="ícone telefone" class="bx bxs-phone-call bx-sm"></i>
+              <span>Telefone :</span> <a title="link para Telefone 19 3924-5774" class="anchor_phone__contact"
+                href="tel:+551939245774"> (19) 3924 - 5774 </a>
+            </li>
+            <li>
+              <i title="ícone e-mail" class="bx bx-envelope bx-sm"></i>
+              <span>E-mail :</span> <a title="link para Email conti.ht@gmail.com" class="anchor_email__contact"
+                href="mailto:conti.ht@gmail.com"> conti.ht@gmail.com
+              </a>
+            </li>
+            <li>
+              <i title="ícone endereço" class="bx bxs-buildings bx-sm"></i>
+              <span>End :</span> <span
+                title="Endereço Rua Benedito Alves Barbosa número 48, Bairro Pimentéis, Águas de Lindóia, SP."
+                class="address_info__contact"> Rua Benedito
+                Alves Barbosa n° 48,</span><span class="address2_info__contact"> Bairro Pimentéis,
+                Águas de Lindóia, SP. </span>
+            </li>
+          </ul>
+          <div class="container_map__contact" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="1200">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3190.8123666172855!2d-46.59826481547213!3d-22.484901807687084!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9116114a7d7db%3A0x888f51e250fac51!2sR.%20Benedito%20A.%20Barbosa%2C%2048%2C%20%C3%81guas%20de%20Lind%C3%B3ia%20-%20SP%2C%2013940-000!5e0!3m2!1spt-BR!2sbr!4v1705500490541!5m2!1spt-BR!2sbr"
+              title="mapa de localização" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              data-aos="flip-right" data-aos-easing="ease-in-out" data-aos-duration="1800"></iframe>
+          </div>
+          <ul class="container_social_icons__contact">
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/conti.ht">
+                <img title="ícone link para Facebook da empresa" src="./src/images/contact/icon_facebook.png"
+                  alt="ícone Facebook"></img>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/conti.ht/">
+                <img title="ícone link para Instagram da empresa" src="./src/images/contact/icon_instagram.png"
+                  alt="ícone Instagram"></img>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">
+                <img title="ícone link para YouTube da empresa" src="./src/images/contact/icon__youtube.png"
+                  alt="ícone YouTube"></img>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container_form__contact">
+          <form action="https://formsubmit.co/ajax/conti.ht@gmail.com" method="POST" data-form="#myForm">
+            <h2 title="título da página de formulário: 'Envie-nos uma menssagem'" class="h2_form__contact"
+              class="form-title">Tire suas dúvidas, faça seu orçamento!!</h2>
+            <div title="campos do formulário" class="form_fields__contact">
+              <div for="nome" class="form_group__contact">
+                <input title="campo NOME do formulário" type="text" name="fname" class="fname" placeholder="Nome"
+                  autocomplete="given-name" required>
+              </div>
+              <div class="form_group__contact">
+                <input title="campo SOBRENOME do formulário" type="text" name="lname" class="lname"
+                  placeholder="Sobrenome" autocomplete="family-name" required>
+              </div>
+              <div class="form_group__contact">
+                <input title="campo E-MAIL do formulário" type="email" name="email" class="email" placeholder="E-mail"
+                  autocomplete="email" required>
+              </div>
+              <div class="form_group__contact">
+                <input title="campo TELEFONE do formulário" type="tel" name="phone" class="phone" placeholder="Telefone"
+                  autocomplete="tel" required>
+              </div>
+              <div class="form_group__contact" id="textarea_form__contact">
+                <textarea title="campo MENSSAGEM do formulário" name="message" class="email"
+                  placeholder="Escreva sua mensagem" autocomplete="off" required></textarea>
+              </div>
+              <button title="Botão de envio do formulário" type="submit" class="form_group__contact"
+                id="btn_submit__contact" data-button>Enviar menssagem</button>
+            </div>
+            <img title="imagem mascote da empresa segurando celular" src="./src/images/contact/mascot_with_cell.png"
+              alt="mascote da empresa segurando celular" id="img_form__contact">
+          </form>
+        </div>
+      </div>
+
+    </section>
+    <!-- Section Footer -->
+    <section title="página de rodapé" class="container__footer" id="footer">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <a href="./src/images/footer/Logo_EWD_APEX_pq320px.png" target="_blank" rel="noopener noreferrer">
+            <img src="./src/images/footer/Logo_EWD_APEX_pq320px.png" alt="Logo da Conti Higienizações Têxteis"
+              class="logo_img__footer">
+          </a>
+        </div>
+        <p class="footer__copyright">Desenvolvido por: EWD APEX - &copy; 2025 </p>
+        <div class="footer__contact">
+          <a href="https://wa.me/551939245774" target="_blank" rel="noopener noreferrer" class="contact__link">
+            <i class="bx bxl-whatsapp"></i>
+            <span>(35) 9 8425-6707</span>
+          </a>
+          <a href="mailto:edradanovis@gmail.com" class="contact__link">
+            <i class="bx bx-envelope"></i>
+            <span>edradanovis@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

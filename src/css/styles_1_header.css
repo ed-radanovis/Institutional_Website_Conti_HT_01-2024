@@ -1,0 +1,255 @@
+/* Nav - Inicio*/
+.max_width__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1330px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    height: 120px;
+    background-color: #212121be;
+    font-family: 'Poppins', sans-serif;
+    z-index: 999;
+}
+
+.navbar_min {
+    padding: 0;
+    height: 96px;
+    background-color: transparent;
+    opacity: .3;
+}
+
+.logo_img__nav {
+    width: 450px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #48f1eb;
+}
+
+.logo_img__nav_min {
+    transform: scale(.67);
+}
+
+.menu__nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.anchor__nav {
+    margin-left: 25px;
+    color: #9b989b;
+    filter:
+        drop-shadow(4px 4px 3px #000000);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.anchor__nav:hover {
+    color: #48f1eb;
+    filter:
+        drop-shadow(1px 1px 1px #ffffff);
+}
+
+.anchor__nav_scroll {
+    color: #000000;
+    filter:
+        drop-shadow(3px 3px 1px #ffffff);
+    transition: all .3s ease;
+}
+
+.anchor__nav_scroll:hover {
+    color: #48f1eb;
+    filter:
+        drop-shadow(2px 2px 3px #ffffff);
+}
+
+/* Menu - Mobile*/
+.btn_menu__nav {
+    display: none;
+    margin: 25px -35px 0 0;
+    color: #48f1eb;
+    filter:
+        drop-shadow(4px 4px 3px #000000);
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+
+/* Responsive*/
+
+/* Styles for portrait mode smartphones */
+@media (max-width: 885px) {
+    .max_width__nav {
+        padding: 0 35px 0 45px;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar_min {
+        opacity: .7;
+    }
+
+    .menu__nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding: 80px;
+        width: 100%;
+        height: 100vh;
+        background-color: #48f1eb7f;
+        text-align: center;
+    }
+
+    .active {
+        left: 0;
+        background-color: #000000;
+        transition: all .8s ease-in-out;
+    }
+
+    .menu__nav li {
+        display: block;
+    }
+
+    .anchor__nav {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 40px;
+        font-weight: 400;
+        filter:
+            drop-shadow(2px 2px 1px #48f1eb);
+    }
+
+    .logo_img__nav {
+        position: fixed;
+        max-width: 285px;
+        max-height: 60px;
+        margin: -24px 0 0 -40px;
+    }
+
+    .logo_img__nav_min {
+        display: none;
+    }
+
+    .btn_menu__nav {
+        display: block;
+        margin-right: -18px;
+        z-index: 999;
+    }
+
+    .btn_menu__nav_disable {
+        opacity: .4;
+    }
+}
+
+/* Styles for landscape mode smartphones */
+@media only screen and (max-width: 885px) and (orientation: landscape) {
+    .navbar {
+        padding: 0;
+        height: 60px;
+    }
+
+    .menu__nav li {
+        display: inline-block;
+    }
+
+    .anchor__nav {
+        margin: 20px 15px;
+    }
+
+    .logo_img__nav {
+        margin: -26px 0 0 -20px;
+        width: 225px;
+        height: 45px;
+    }
+
+    .btn_menu__nav {
+        margin: 10px 5px 0 0;
+    }
+}
+
+/* Styles for tablets in both orientations */
+@media only screen and (min-width: 886px) and (max-width: 1367px) {
+    .max_width__nav {
+        padding: 0 20px;
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    .logo_img__nav {
+        margin: 10px 0 0 0;
+        width: 330px;
+        height: 70px;
+    }
+
+    .logo_img__nav_min {
+        transform: scale(.67);
+    }
+
+    .anchor__nav {
+        margin-left: 10px;
+        font-size: 1.4rem
+    }
+}
+
+/* Styles for Large screens Full HD resolution _ 1920 px above */
+@media only screen and (min-width: 1920px) and (max-width: 3839px) {
+    .max_width__nav {
+        max-width: none;
+    }
+
+    .navbar {
+        height: 130px;
+    }
+
+    .logo_img__nav {
+        width: 518px;
+        height: 105px;
+        border-radius: 13px;
+        margin-top: -5px;
+    }
+
+    .logo_img__nav_min {
+        transform: scale(.67);
+    }
+
+    .anchor__nav {
+        font-size: 2rem;
+    }
+}
+
+/* Styles for Large screens 4 K resolution _ 3840 px above */
+@media only screen and (min-width: 3840px) {
+    .max_width__nav {
+        max-width: none;
+    }
+
+    .navbar {
+        height: 300px;
+    }
+
+    .logo_img__nav {
+        width: 1040px;
+        height: 210px;
+        border-radius: 25px;
+        margin: 15px 0 0 45px;
+    }
+
+    .logo_img__nav_min {
+        transform: scale(.67);
+    }
+
+    .anchor__nav {
+        margin-left: 80px;
+        font-size: 4rem;
+    }
+}

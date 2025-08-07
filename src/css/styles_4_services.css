@@ -1,0 +1,506 @@
+/* Section - Services*/
+.container__services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(45deg, #111111 35%, #212121 45%, #2a2929 46%, #424040 50%, #2a2929 54%, #212121 55%, #111111 65%);
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: 'Ubuntu', 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.container_h1__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px auto 80px auto;
+    width: 100vw;
+    height: 100%;
+}
+
+.h1__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 40vw;
+    height: 15vh;
+    background-color: #48f1eb14;
+    border-radius: 20px;
+    border-top: 2.5px solid #48f1eba9;
+    border-left: 2.5px solid #48f1eba9;
+}
+
+.main_text__services {
+    background: linear-gradient(180deg, #2a659c 3%, #197fdd 50%, #48f1ebc0 82%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:
+        drop-shadow(2px 2px 1px #939b9b);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    padding: 0 15px;
+    width: 90vw;
+    height: 15vh;
+    background-color: #48f1eb0d;
+    color: #48f1ebda;
+    text-shadow: 2px 2px #000000;
+    border-radius: 20px;
+    border-top: 0.3px solid #48f1eb33;
+    border-left: 0.3px solid #48f1eb33;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: justify;
+}
+
+#p6__services {
+    width: 20vw;
+    height: 25vh;
+    background-color: #48f1eb6c;
+    color: #08f714fd;
+    text-shadow: 4px 2px 2px #212121;
+    border: 2px solid #08f714fd;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container_h2__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 35vh;
+    background: linear-gradient(0deg, #111111 35%, #212121 45%, #2a2929 46%, #424040 50%, #2a2929 54%, #212121 55%, #111111 65%);
+    background-size: 100% 120%;
+    animation: backcolors 7s ease infinite;
+}
+
+@keyframes backcolors {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+
+}
+
+.h2__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+    background-color: #00000064;
+    border-radius: 20px;
+    border-top: 1px solid #48f1eb;
+    border-left: 1px solid #48f1eb;
+}
+
+.anchor1_section__services {
+    background: linear-gradient(180deg, #2a659c 3%, #197fdd 50%, #48f1ebc0 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:
+        drop-shadow(3px 3px 1px #939b9b);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.anchor2_section__services {
+    background: linear-gradient(180deg, #48f1ebc0 23%, #197fdd 60%, #2a659c 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:
+        drop-shadow(3px 3px 1px #868d8d);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container_slider__services {
+    margin-right: 25px;
+    padding: 1% 35% 9.5% 35%;
+    width: 100vw;
+    background-color: #111111;
+    overflow: hidden;
+}
+
+.swiper-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+
+.span_slider__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -300px;
+    width: 75%;
+    height: 25%;
+    background-color: #48f1eb66;
+    color: #f2f0f0;
+    text-shadow: 3px 3px 1px #0a0a0a;
+    border: 10px double #111111cc;
+    border-radius: 50%;
+    font-family: 'Aclonica', 'Charm', 'Kalam';
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* mockup images - Services - COMPANY*/
+#img_slider_company_1 {
+    background-image: url(../images/carousel_company/clothing_store.jpg)
+}
+
+#img_slider_company_2 {
+    background-image: url(../images/carousel_company/bars_snackBars.jpg);
+}
+
+#img_slider_company_3 {
+    background-image: url(../images/carousel_company/waiting_room.jpg);
+}
+
+#img_slider_company_4 {
+    background-image: url(../images/carousel_company/office2.jpg);
+}
+
+#img_slider_company_5 {
+    background-image: url(../images/carousel_company/meeting_room.jpg);
+}
+
+#img_slider_company_6 {
+    background-image: url(../images/carousel_company/lounge.jpg);
+}
+
+#img_slider_company_7 {
+    background-image: url(../images/carousel_company/gym.jpg);
+}
+
+#img_slider_company_8 {
+    background-image: url(../images/carousel_company/office_it.jpg);
+}
+
+/* mockup images - Services - HOTEL*/
+#img_slider_hotel_1 {
+    background-image: url(../images/carousel_hotel/hotel_restaurant.jpg);
+}
+
+#img_slider_hotel_2 {
+    background-image: url(../images/carousel_hotel/hotel_room.jpg);
+}
+
+#img_slider_hotel_3 {
+    background-image: url(../images/carousel_hotel/hotel_corridor1.jpg);
+}
+
+#img_slider_hotel_4 {
+    background-image: url(../images/carousel_hotel/party_room.jpg);
+}
+
+#img_slider_hotel_5 {
+    background-image: url(../images/carousel_hotel/auditorium.jpg);
+}
+
+#img_slider_hotel_6 {
+    background-image: url(../images/carousel_hotel/hotel_lounge.jpg);
+}
+
+#img_slider_hotel_7 {
+    background-image: url(../images/carousel_hotel/toy_library.jpg);
+}
+
+#img_slider_hotel_8 {
+    background-image: url(../images/carousel_hotel/cinema.jpg);
+}
+
+/* mockup images - Services - RESIDENTIAL*/
+#img_slider_residential_1 {
+    background-image: url(../images/carousel_residential/home_room1.jpg);
+}
+
+#img_slider_residential_2 {
+    background-image: url(../images/carousel_residential/curtains.jpg);
+}
+
+#img_slider_residential_3 {
+    background-image: url(../images/carousel_residential/living_room.jpg);
+}
+
+#img_slider_residential_4 {
+    background-image: url(../images/carousel_residential/home_office.jpg);
+}
+
+#img_slider_residential_5 {
+    background-image: url(../images/carousel_residential/dining_room.jpg);
+}
+
+#img_slider_residential_6 {
+    background-image: url(../images/carousel_residential/games_room.jpg);
+}
+
+#img_slider_residential_7 {
+    background-image: url(../images/carousel_residential/gourmet_area.jpg);
+}
+
+#img_slider_residential_8 {
+    background-image: url(../images/carousel_residential/tapestry.jpg);
+}
+
+/* mockup images - Services - AUTOMOTIVE*/
+#img_slider_automotive_1 {
+    background-image: url(../images/carousel_automotive/car_seat1.jpg);
+}
+
+#img_slider_automotive_2 {
+    background-image: url(../images/carousel_automotive/baby_car_seat.jpg);
+}
+
+#img_slider_automotive_3 {
+    background-image: url(../images/carousel_automotive/car_roof.jpg);
+}
+
+#img_slider_automotive_4 {
+    background-image: url(../images/carousel_automotive/trunk.jpg);
+}
+
+#img_slider_automotive_5 {
+    background-image: url(../images/carousel_automotive/SUV.jpg);
+}
+
+#img_slider_automotive_6 {
+    background-image: url(../images/carousel_automotive/car_console.jpg);
+}
+
+#img_slider_automotive_7 {
+    background-image: url(../images/carousel_automotive/truck_cabin.jpg);
+}
+
+#img_slider_automotive_8 {
+    background-image: url(../images/carousel_automotive/car_seat4.jpg);
+}
+
+/* Responsive*/
+
+/* Styles for landscape mode smartphones */
+@media only screen and (max-width: 885px) {
+    .container_h1__services {
+        margin-top: 40px;
+    }
+
+    .h1__services {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 75vw;
+        height: 20vh;
+    }
+
+    .main_text__services {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+        line-height: 95%;
+    }
+
+    .p__services {
+        width: 75vw;
+        height: 20vh;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #company_container {
+        margin-top: -80px
+    }
+
+    #p6__services {
+        margin: 15px 0;
+        width: 40vw;
+        height: 30vh;
+        font-size: 1.2rem;
+    }
+
+    .h2__services {
+        width: 60vw;
+        height: 15vh;
+    }
+
+    .anchor1_section__services, .anchor2_section__services {
+        font-size: 2.8rem;
+    }
+
+    .container_slider__services {
+        padding: 5% 10% 28% 10%;
+    }
+
+    .swiper-image {
+        height: 62vh;
+    }
+
+    .span_slider__services {
+        margin-top: -140px;
+        width: 50%;
+        height: 35%;
+        font-size: 1.6rem;
+    }
+}
+
+/* Styles for portrait mode smartphones */
+@media only screen and (max-width: 500px) {
+
+    .container_h1__services {
+        margin-top: 80px;
+    }
+
+    .h1__services {
+        margin-top: -60px;
+        height: 10vh;
+    }
+
+    .main_text__services {
+        font-size: 1.4rem;
+    }
+
+    .p__services {
+        height: 25vh;
+        border-top: 3.3px solid #48f1eb33;
+        border-left: 3.3px solid #48f1eb33;
+    }
+
+    #p6__services {
+        margin: 15px 0;
+        width: 50vw;
+        height: 12vh;
+        font-size: 1rem;
+    }
+
+    .h2__services {
+        width: 80vw;
+    }
+
+    .span_slider__services {
+        margin-top: -350px;
+        width: 75%;
+        height: 20%;
+    }
+}
+
+/* Styles for portrait mode tablets */
+@media only screen and (min-width: 886px) and (max-width: 1024px) {
+    .container_h1__services {
+        margin-bottom: 40px;
+    }
+
+    .h1__services {
+        margin: 50px auto 20px;
+        width: 50vw;
+        height: 10vh;
+    }
+
+    .main_text__services {
+        font-size: 3rem;
+        letter-spacing: unset;
+    }
+
+    .p__services {
+        margin: 20px auto 0 auto;
+        border-top: 4px solid #48f1eb33;
+        border-left: 4px solid #48f1eb33;
+        font-size: 1.8rem;
+    }
+
+    #p6__services {
+        width: 35vw;
+        height: 15vh;
+        font-size: 2rem;
+    }
+}
+
+/* Styles for landscape mode tablets */
+@media only screen and (min-width: 1023px) and (max-width: 1367px) and (orientation: landscape) {
+
+    .container_h1__services {
+        margin-bottom: 40px;
+    }
+
+    .h1__services {
+        margin: 40px auto 20px;
+    }
+
+    .main_text__services {
+        font-size: 3rem;
+        letter-spacing: unset;
+    }
+
+    .p__services {
+        margin: 20px auto 0 auto;
+        border-top: 4px solid #48f1eb33;
+        border-left: 4px solid #48f1eb33;
+        font-size: 1.8rem;
+    }
+
+    #p6__services {
+        width: 30vw;
+        height: 20vh;
+        font-size: 2.2rem;
+    }
+
+}
+
+/* Styles for Large screens Full HD resolution _ 1920 px above */
+@media only screen and (min-width: 1921px) {
+
+    .h1__services {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .main_text__services {
+        font-size: 2.8rem;
+    }
+
+    .p__services {
+        font-size: 1.8rem;
+    }
+
+    #p6__services {
+        margin-top: 40px;
+        font-size: 1.8rem;
+    }
+}

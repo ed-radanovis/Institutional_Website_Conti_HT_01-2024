@@ -1,0 +1,385 @@
+/* Section - Testimonial*/
+.container__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #424040 35%, #2a2929 45%, #212121 46%, #111111 50%, #212121 54%, #2a2929 55%, #424040 65%);
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: 'Ubuntu', 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.container_h1__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 110px 0 0 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.h1__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 100%;
+    background-color: #bbc7c31f;
+    border-radius: 15px;
+    border-top: 1px solid #48f1eb;
+    border-left: 1px solid #48f1eb;
+}
+
+.main_text__testimonial {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg, #2a659c 3%, #197fdd 50%, #48d8f1c0 82%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:
+        drop-shadow(2px 2px 1px #212121);
+}
+
+.container_slider__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.testimonial {
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 15px;
+    padding: 0 0 60px 0;
+    overflow: hidden;
+}
+
+.img_slider__testimonial {
+    margin: 2px 0 10px 0;
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #48f1eb;
+    border-top: 2px solid #48f1eb;
+    border-left: 2px solid #48f1eb;
+}
+
+.testimonial .container_slider__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bbc7c31f;
+    border-radius: 20px;
+    border-top: 1px solid #48f1eb;
+    border-left: 1px solid #48f1eb;
+    row-gap: 5px;
+}
+
+.p__testimonial {
+    padding: 5px 80px 0 80px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #48f1eb;
+    text-shadow: 2px 2px #000000;
+}
+
+.quote-icon {
+    color: #000000;
+    text-shadow: 1px 1px #48f1eb;
+    font-size: 2.8rem;
+}
+
+.details__testimonial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name_details__testimonial {
+    color: #000000;
+    text-shadow: .5px .5px #48f1eb;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.job_details__testimonial {
+    color: #48f1eb;
+    text-shadow: 1.5px 1.5px #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Swiper - Button */
+.nav-btn {
+    margin: 0 20px;
+    --swiper-navigation-size: 60px;
+    border-radius: 30%;
+    background-color: #00000026;
+    transition: 0.2s ease-in-out;
+    transform: scaleX(1.5);
+}
+
+.nav-btn:hover {
+    background-color: #0000004d;
+}
+
+.nav-btn:active {
+    background-color: #0000001a;
+    transform: scaleX(1.3);
+}
+
+.nav-btn::after,
+.nav-btn::before {
+    color: #48f1eb6b;
+    --swiper-navigation-size: 30px;
+}
+
+.swiper-pagination {
+    --swiper-pagination-bullet-size: 14px;
+    --swiper-pagination-color: #48f1eb;
+    --swiper-pagination-bullet-inactive-color: #48f1eb;
+    --swiper-pagination-bullet-inactive-opacity: .3;
+    --swiper-pagination-bullet-horizontal-gap: 5px;
+}
+
+/* Responsive*/
+
+/* Styles for portrait mode smartphones */
+@media (max-width: 885px) {
+    .container_h1__testimonial {
+        margin: 30px auto 0 auto;
+    }
+
+    .h1__testimonial {
+        width: 80vw;
+    }
+
+    .main_text__testimonial {
+        font-size: 1.4rem;
+    }
+
+    .testimonial {
+        margin-top: 20px;
+        padding: 0 0 50px 0;
+        width: 80vw;
+    }
+
+    .img_slider__testimonial {
+        margin: 10px 0 50px 0;
+        width: 20vw;
+        height: 10vh;
+    }
+
+    .p__testimonial {
+        padding: 5px 20px 0 20px;
+        font-size: 1.1rem;
+    }
+
+    .name_details__testimonial {
+        font-size: 1.2rem;
+        text-shadow: .8px .8px #48f1eb;
+        letter-spacing: .5px;
+    }
+
+    .job_details__testimonial {
+        margin-top: 10px;
+        text-shadow: 3px 3px #000000;
+        font-weight: 200;
+        letter-spacing: .5px;
+    }
+
+    /* Swiper - Button */
+    .nav-btn, .nav-btn::after {
+        --swiper-navigation-size: 0px;
+    }
+}
+
+/* Styles for landscape mode smartphones */
+@media only screen and (max-width: 886px) and (orientation: landscape) {
+    .container_h1__testimonial {
+        margin: 10px 0 10px 0;
+    }
+
+    .h1__testimonial {
+        width: 80%;
+        height: 16vh;
+    }
+
+    .main_text__testimonial {
+        font-size: 1.3rem;
+    }
+
+    .container_slider__testimonial {
+        height: 80vh;
+    }
+
+    .testimonial {
+        margin-top: 30px;
+        padding: 0px 0 34px 0;
+        height: 80vh;
+    }
+
+    .img_slider__testimonial {
+        margin: 5px 0 5px 0;
+        width: 10vw;
+        height: 20vh;
+    }
+
+    .p__testimonial {
+        padding: 5px 2px 0 2px;
+        font-size: .9rem;
+    }
+
+    .quote-icon {
+        font-size: .9rem;
+    }
+
+    .name_details__testimonial {
+        font-size: 1rem;
+    }
+
+    .job_details__testimonial {
+        margin: 5px 0 10px 0;
+        font-size: .8rem;
+    }
+
+    /* Swiper - Button */
+    .nav-btn, .nav-btn::after {
+        --swiper-navigation-size: 0px;
+    }
+}
+
+/* Styles for portrait mode tablets */
+@media only screen and (min-width: 887px) and (max-width: 1024px) {
+    .img_slider__testimonial {
+        margin-bottom: 10%;
+        width: 20vw;
+        height: 15vh;
+    }
+
+    .p__testimonial {
+        font-size: 1.8rem;
+    }
+
+    .quote-icon {
+        font-size: 3.4rem;
+    }
+
+    .name_details__testimonial {
+        margin-bottom: 10px;
+        font-size: 2.4rem;
+    }
+
+    .job_details__testimonial {
+        font-size: 1.8rem;
+    }
+
+    /* Swiper - Button */
+    .nav-btn, .nav-btn::after {
+        --swiper-navigation-size: 0px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 30px;
+    }
+}
+
+/* Styles for landscape mode tablets */
+@media only screen and (min-width: 1023px) and (max-width: 1367px) and (orientation: landscape) {
+    .main_text__testimonial {
+        letter-spacing: 1px;
+    }
+
+    .img_slider__testimonial {
+        margin-bottom: 4%;
+        width: 12vw;
+        height: 15vh;
+    }
+
+    .p__testimonial {
+        font-size: 1.7rem;
+    }
+
+    .quote-icon {
+        font-size: 3.4rem;
+    }
+
+    .name_details__testimonial {
+        margin-bottom: 10px;
+        font-size: 2.4rem;
+    }
+
+    .job_details__testimonial {
+        font-size: 1.8rem;
+    }
+
+    /* Swiper - Button */
+    .nav-btn, .nav-btn::after {
+        --swiper-navigation-size: 0px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 30px;
+    }
+}
+
+/* Styles for Large screens Full HD resolution _ 1920 px above */
+@media only screen and (min-width: 1921px) {
+
+    .h1__testimonial {
+        border-top: 2px solid #48f1eb;
+        border-left: 2px solid #48f1eb;
+    }
+
+    .main_text__testimonial {
+        font-size: 2.6rem;
+    }
+
+    .img_slider__testimonial {
+        margin-bottom: 40px;
+        width: 8vw;
+        height: 18vh;
+    }
+
+    .testimonial .container_slider__testimonial {
+    border-top: 2px solid #48f1eb;
+    border-left: 2px solid #48f1eb;
+    }
+
+    .p__testimonial {
+        font-size: 1.6rem;
+    }
+
+    .quote-icon {
+        font-size: 3.2rem;
+    }
+
+    .name_details__testimonial {
+        margin-bottom: 5px;
+        text-shadow: 1.5px 1.5px #48f1eb;
+        font-size: 1.8rem;
+    }
+
+    .job_details__testimonial {
+        font-size: 1.4rem;
+    }
+
+    /* Swiper - Button */
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 20px;
+    }
+}
